@@ -48,8 +48,11 @@ function Main() {
       } //
       axios
         .post(
-          'https://fogbnvtkba.execute-api.us-west-2.amazonaws.com/Encrypt-AD440Winter2023-V3',
-          { message: textAreaValue, key: passwordAreaValue }
+          'https://6z6enqjxl8.execute-api.us-west-2.amazonaws.com/encryption',
+          {
+            message: textAreaValue,
+            key: passwordAreaValue,
+          }
         )
         .then(function (response) {
           setOutputText(response.data.encryptedMessage);
@@ -87,8 +90,11 @@ function Main() {
       }
       axios
         .post(
-          'https://fogbnvtkba.execute-api.us-west-2.amazonaws.com/Decrypt-AD440Winter2023-V3',
-          { encryptedMessage: textAreaValue, key: passwordAreaValue }
+          'https://6z6enqjxl8.execute-api.us-west-2.amazonaws.com/decryption',
+          {
+            encryptedMessage: textAreaValue,
+            key: passwordAreaValue,
+          }
         )
         .then(function (response) {
           if (response.data.decryptedMessage === '') {
