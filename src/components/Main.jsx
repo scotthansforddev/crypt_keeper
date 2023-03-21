@@ -6,13 +6,6 @@ import KeyInput from './KeyInput';
 import EncryptDecryptButtons from './Buttons/EncryptDecryptButtons';
 import Output from './TextAreas/Output';
 
-// import { BsFillKeyFill } from 'react-icons/bs';
-// import { BsFillUnlockFill } from 'react-icons/bs';
-// import { BsFillShieldLockFill } from 'react-icons/bs';
-// import { FaClipboard } from 'react-icons/fa';
-// import { BsArrowRepeat } from 'react-icons/bs';
-// import CopyButton from './Copy';
-
 function Main() {
   //button states
   const [encryptedButtonState, setEncryptedButtonState] = useState(false);

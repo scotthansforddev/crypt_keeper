@@ -5,7 +5,6 @@ import Main from "./components/Main";
 
 function App() {
   return (
-  )
     <div className="App">
       <Header />
       <div className="inputContainers">
