@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/crypt_keeper/static/css/main.833a6b6f.css",
-    "main.js": "/crypt_keeper/static/js/main.b42caf38.js",
+    "main.css": "/crypt_keeper/static/css/main.f080fa37.css",
+    "main.js": "/crypt_keeper/static/js/main.0d522f6d.js",
     "static/media/colors.png": "/crypt_keeper/static/media/colors.6fd25cc5eb325478cc72.png",
     "static/media/puterbanner.bmp": "/crypt_keeper/static/media/puterbanner.d16c5dfd14553c569d95.bmp",
     "static/media/ITAR.jpg": "/crypt_keeper/static/media/ITAR.13d8cbc2deb0306805ca.jpg",
     "static/media/cyber-network.jpg": "/crypt_keeper/static/media/cyber-network.90868d861b4ccdc9d1ad.jpg",
     "static/media/lightlogo.png": "/crypt_keeper/static/media/lightlogo.1dce52509fd716db0df3.png",
     "index.html": "/crypt_keeper/index.html",
-    "main.833a6b6f.css.map": "/crypt_keeper/static/css/main.833a6b6f.css.map",
-    "main.b42caf38.js.map": "/crypt_keeper/static/js/main.b42caf38.js.map"
+    "main.f080fa37.css.map": "/crypt_keeper/static/css/main.f080fa37.css.map",
+    "main.0d522f6d.js.map": "/crypt_keeper/static/js/main.0d522f6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.833a6b6f.css",
-    "static/js/main.b42caf38.js"
+    "static/css/main.f080fa37.css",
+    "static/js/main.0d522f6d.js"
   ]
 }
