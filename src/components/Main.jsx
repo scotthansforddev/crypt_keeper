@@ -124,29 +124,29 @@ function Main() {
   };
 
   //paste from clipboard
-  const hiddenPasteArea = useRef(null);
+  // const hiddenPasteArea = useRef(null);
 
-  const handlePasteClick = async () => {
-    if (navigator.clipboard && navigator.clipboard.readText) {
-      try {
-        const text = await navigator.clipboard.readText();
-        setTextAreaValue(text);
-      } catch (err) {
-        console.error('Failed to read clipboard contents: ', err);
-      }
-    } else {
-      hiddenPasteArea.current.value = '';
-      hiddenPasteArea.current.focus();
-      hiddenPasteArea.current.select();
+  // const handlePasteClick = async () => {
+  //   if (navigator.clipboard && navigator.clipboard.readText) {
+  //     try {
+  //       const text = await navigator.clipboard.readText();
+  //       setTextAreaValue(text);
+  //     } catch (err) {
+  //       console.error('Failed to read clipboard contents: ', err);
+  //     }
+  //   } else {
+  //     hiddenPasteArea.current.value = '';
+  //     hiddenPasteArea.current.focus();
+  //     hiddenPasteArea.current.select();
 
-      const handleHiddenPaste = (event) => {
-        setTextAreaValue(event.clipboardData.getData('text/plain'));
-        hiddenPasteArea.current.removeEventListener('paste', handleHiddenPaste);
-      };
+  //     const handleHiddenPaste = (event) => {
+  //       setTextAreaValue(event.clipboardData.getData('text/plain'));
+  //       hiddenPasteArea.current.removeEventListener('paste', handleHiddenPaste);
+  //     };
 
-      hiddenPasteArea.current.addEventListener('paste', handleHiddenPaste);
-    }
-  };
+  //     hiddenPasteArea.current.addEventListener('paste', handleHiddenPaste);
+  //   }
+  // };
 
   //copy to clipboard
   const hiddenTextArea = useRef(null);

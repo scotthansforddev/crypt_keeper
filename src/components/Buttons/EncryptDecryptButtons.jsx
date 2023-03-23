@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  BsFillKeyFill,
-  BsFillUnlockFill,
-  BsFillShieldLockFill,
-} from 'react-icons/bs';
+import { BsFillUnlockFill, BsFillShieldLockFill } from 'react-icons/bs';
 
 const EncryptDecryptButtons = ({
   encryptedButtonState,
