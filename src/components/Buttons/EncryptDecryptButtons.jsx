@@ -19,7 +19,7 @@ const EncryptDecryptButtons = ({
           ) : (
             <>
               <BsFillUnlockFill size={20} />
-              Click to Encrypt
+              Encrypt
             </>
           )}
         </button>
@@ -34,7 +34,7 @@ const EncryptDecryptButtons = ({
           ) : (
             <>
               <BsFillShieldLockFill size={20} />
-              Click to Decrypt
+              Decrypt
             </>
           )}
         </button>
