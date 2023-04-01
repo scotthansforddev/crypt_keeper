@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/crypt_keeper/static/css/main.be5ce015.css",
+    "main.css": "/crypt_keeper/static/css/main.8cf7096f.css",
     "main.js": "/crypt_keeper/static/js/main.147a1e64.js",
     "static/media/colors.png": "/crypt_keeper/static/media/colors.6fd25cc5eb325478cc72.png",
     "static/media/puterbanner.bmp": "/crypt_keeper/static/media/puterbanner.d16c5dfd14553c569d95.bmp",
@@ -8,11 +8,11 @@
     "static/media/cyber-network.jpg": "/crypt_keeper/static/media/cyber-network.90868d861b4ccdc9d1ad.jpg",
     "static/media/lightlogo.png": "/crypt_keeper/static/media/lightlogo.1dce52509fd716db0df3.png",
     "index.html": "/crypt_keeper/index.html",
-    "main.be5ce015.css.map": "/crypt_keeper/static/css/main.be5ce015.css.map",
+    "main.8cf7096f.css.map": "/crypt_keeper/static/css/main.8cf7096f.css.map",
     "main.147a1e64.js.map": "/crypt_keeper/static/js/main.147a1e64.js.map"
   },
   "entrypoints": [
-    "static/css/main.be5ce015.css",
+    "static/css/main.8cf7096f.css",
     "static/js/main.147a1e64.js"
   ]
 }
